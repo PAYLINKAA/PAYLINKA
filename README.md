@@ -83,7 +83,7 @@ One link. Any wallet. Any surface — QR code, NFC tag, embedded in a website, o
 
 | Layer | Technology |
 |-------|-----------|
-| **Frontend** | Next.js 15 (App Router), TypeScript, Tailwind CSS |
+| **Frontend** | Next.js 14 (App Router), React 18, TypeScript, Tailwind CSS |
 | **Wallet** | wagmi v2, viem, WalletConnect |
 | **Smart Contracts** | Solidity 0.8.24, Hardhat |
 | **QR Codes** | qrcode.react |
