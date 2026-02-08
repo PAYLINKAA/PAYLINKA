@@ -1,0 +1,54 @@
+/* Paylinka global styles — Tailwind loaded via CDN in layout.tsx */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #020617;
+  color: #f1f5f9;
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0f172a; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #475569; }
+
+.glass {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(51, 65, 85, 0.5);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #748ffc, #5c7cfa, #4263eb, #91a7ff);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-border {
+  position: relative;
+  border-radius: 16px;
+  padding: 1px;
+  background: linear-gradient(135deg, #4263eb, #5c7cfa, #748ffc);
+}
+
+.glow {
+  box-shadow: 0 0 30px rgba(92, 124, 250, 0.15), 0 0 60px rgba(66, 99, 235, 0.1);
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 20px rgba(92, 124, 250, 0.4), 0 0 40px rgba(66, 99, 235, 0.2);
+}
+
+.bg-dots {
+  background-image: radial-gradient(rgba(92, 124, 250, 0.15) 1px, transparent 1px);
+  background-size: 30px 30px;
+}

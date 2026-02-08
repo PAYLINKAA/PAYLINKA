@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+dist/
+build/
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+.next/
+out/
+*.log
+.DS_Store
+Thumbs.db
