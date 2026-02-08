@@ -2,7 +2,6 @@
 
 import { WagmiProvider, createConfig, http } from "wagmi";
 import { baseSepolia, polygonMumbai, arbitrumSepolia } from "wagmi/chains";
-import { injected } from "wagmi/connectors";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import type { Chain } from "viem";
 
@@ -21,7 +20,6 @@ const monadTestnet: Chain = {
 
 const config = createConfig({
   chains: [baseSepolia, polygonMumbai, arbitrumSepolia, monadTestnet],
-  connectors: [injected()],
   transports: {
     [baseSepolia.id]: http(),
     [polygonMumbai.id]: http(),
