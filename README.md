@@ -260,3 +260,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 <p align="center">
   <strong>Paylinka</strong> — Turn links into on-chain payments 
 </p>
+# PAYLINKA
